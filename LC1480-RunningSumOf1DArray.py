@@ -6,7 +6,7 @@ class Solution(object):
         """
         for i in range(1, len(nums)):
             nums[i] = nums[i] + nums[i-1]
-        print(nums)
+        return nums
 
         """for i, el in enumerate(nums):
             if i>=1:
