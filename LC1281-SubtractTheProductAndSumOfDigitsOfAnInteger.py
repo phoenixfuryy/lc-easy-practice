@@ -15,6 +15,6 @@ class Solution(object):
         
 
 
- """for i in range(len(digits_list)):
+"""for i in range(len(digits_list)):
             product = product * digits_list[i]
             print(product)"""
