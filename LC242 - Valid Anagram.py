@@ -25,9 +25,11 @@ class Solution(object):
             print(s_dict[i])
             print(s_dict)
         for i in t: 
-            t_dict[i] = s_dict.get(i, 0) - 1
-            print(s_dict[i])
-            print(s_dict)        
+            if i not in s_dict:
+                print("False")
+            else:
+                s_dict[i] -= 1
+                       
 
 
         

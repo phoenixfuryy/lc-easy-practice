@@ -8,11 +8,7 @@ class Solution(object):
         for i, el in enumerate(sentence):
             set1.add(el)
         if len(set1) == 26: 
-            print("True")
+            return True
         else: 
-            print("False")   
-s1= Solution()
-s1.checkIfPangram("thequickbrownfoxjumpsoverthelazydog")          
-
-
+            return False
         
